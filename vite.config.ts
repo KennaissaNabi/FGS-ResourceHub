@@ -1,8 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
+// GitHub Pages needs the repo subpath; Vercel (and local) use root.
+const base = process.env.GITHUB_PAGES === "true" ? "/FGS-ResourceHub/" : "/";
+
 export default defineConfig({
   plugins: [react()],
-  base: '/FGS-ResourceHub/',
-})
+  base,
+});
