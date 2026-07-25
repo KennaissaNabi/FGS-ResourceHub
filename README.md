@@ -2,6 +2,9 @@
 
 A filterable resource page for [First Gen Scholars](https://www.firstgenscholars.org/): scholarships for high school juniors/seniors, plus communities, internships, and learning paths for first-year college students across every field.
 
+**Live site:** https://fgs-resource-hub.vercel.app  
+**Wiki:** https://github.com/KennaissaNabi/FGS-ResourceHub/wiki
+
 ## Run locally
 
 ```bash
