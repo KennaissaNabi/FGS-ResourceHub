@@ -236,28 +236,6 @@ export const resources: Resource[] = [
 
   // ——— Internships aimed at early undergrads ———
   {
-    id: "google-step",
-    name: "Google STEP Internship",
-    description:
-      "Student Training in Engineering Program — software engineering internship for first- and second-year students. Search open STEP roles on Google Careers when the cycle posts.",
-    url: "https://www.google.com/about/careers/applications/jobs/results/?q=STEP",
-    audiences: ["college-first-year"],
-    category: "internship",
-    tags: ["software engineering", "freshman", "sophomore"],
-    eligibility: "First- & second-year undergrads",
-  },
-  {
-    id: "microsoft-explore",
-    name: "Explore Microsoft",
-    description:
-      "12-week summer internship for first- and second-year students exploring software engineering roles with mentoring and a pod model.",
-    url: "https://careers.microsoft.com/v2/global/en/exploremicrosoft",
-    audiences: ["college-first-year"],
-    category: "internship",
-    tags: ["SWE", "early career"],
-    eligibility: "First- & second-year undergrads",
-  },
-  {
     id: "meta-students",
     name: "Meta Student & Grad Internships",
     description:
