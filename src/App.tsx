@@ -89,7 +89,7 @@ export default function App() {
         </a>
         <a
           className="header-cta"
-          href="https://www.firstgenscholars.org/"
+          href="https://www.firstgenscholars.org/donate"
           target="_blank"
           rel="noreferrer"
         >

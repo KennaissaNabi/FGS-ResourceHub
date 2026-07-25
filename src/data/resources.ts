@@ -37,8 +37,8 @@ export const resources: Resource[] = [
     id: "amazon-future-engineer",
     name: "Amazon Future Engineer Scholarship",
     description:
-      "Up to $40,000 for CS-related degrees plus a pathway to a paid summer internship at Amazon. Built for high school seniors with financial need.",
-    url: "https://www.amazonfutureengineer.com/scholarships",
+      "Up to $40,000 for CS-related degrees plus a pathway to a paid summer internship at Amazon. Built for high school seniors with financial need. Cycles open annually (often winter).",
+    url: "https://scholarshipamerica.org/scholarship/amazonfutureengineer/",
     audiences: ["high-school"],
     category: "scholarship",
     tags: ["tech", "CS", "internship pathway"],
@@ -48,29 +48,29 @@ export const resources: Resource[] = [
     id: "linkedin-possibilities",
     name: "LinkedIn Possibilities in Tech Scholarship",
     description:
-      "Up to $40,000 over four years plus community building, college navigation, and technical training for future software engineers.",
-    url: "https://apply.mykaleidoscope.com/program/LinkedIn2026",
+      "Up to $40,000 over four years plus mentorship, college navigation, and technical training for future software engineers. Applications typically open in December.",
+    url: "https://careers.linkedin.com/pathways-programs/possibilities-scholarship",
     audiences: ["high-school"],
     category: "scholarship",
     tags: ["tech", "software engineering", "mentorship"],
-    eligibility: "HS seniors · CS / related major · U.S. or Puerto Rico",
+    eligibility: "HS seniors · CS / related major · U.S. high school",
   },
   {
     id: "uncf-stem",
     name: "UNCF STEM Scholars Program",
     description:
-      "Up to $25,000 plus mentorship, internship support, and career coaching for high-achieving students entering STEM majors.",
-    url: "https://uncf.org/programs/stem-scholars",
+      "Fund II Foundation / UNCF STEM Scholars — funding and support for high-achieving students pursuing STEM. Apply through UNCF’s scholarship portal when the cycle is open.",
+    url: "https://uncf.org/scholarships",
     audiences: ["high-school"],
     category: "scholarship",
-    tags: ["STEM", "mentorship", "internship"],
-    eligibility: "HS seniors · 3.0+ GPA · financial need",
+    tags: ["STEM", "HBCU", "mentorship"],
+    eligibility: "HS seniors · STEM path · see UNCF eligibility",
   },
   {
     id: "questbridge",
     name: "QuestBridge National College Match",
     description:
-      "Connects high-achieving, low-income students with full four-year scholarships to partner colleges. A cornerstone pathway for first-gen scholars.",
+      "Connects high-achieving, low-income students with full four-year scholarships to partner colleges. Strong pathway for first-gen scholars.",
     url: "https://www.questbridge.org/",
     audiences: ["high-school"],
     category: "scholarship",
@@ -122,15 +122,26 @@ export const resources: Resource[] = [
     eligibility: "Recent HS grads · CS / software-related path",
   },
   {
-    id: "possenetwork",
+    id: "posse",
     name: "Posse Foundation",
     description:
-      "Full-tuition leadership scholarships and a supportive cohort model at partner universities.",
+      "Full-tuition leadership scholarships and a supportive cohort model at partner universities. Students are typically nominated.",
     url: "https://www.possefoundation.org/",
     audiences: ["high-school"],
     category: "scholarship",
     tags: ["full tuition", "cohort", "leadership"],
     eligibility: "HS seniors · nominated by partner orgs / schools",
+  },
+  {
+    id: "fastweb",
+    name: "Fastweb Scholarship Search",
+    description:
+      "Large scholarship database — useful for juniors and seniors casting a wide net beyond big-name awards.",
+    url: "https://www.fastweb.com/",
+    audiences: ["high-school"],
+    category: "scholarship",
+    tags: ["database", "search", "all majors"],
+    eligibility: "HS students · all backgrounds",
   },
 
   // ——— College communities (Color Stack–style) ———
@@ -205,7 +216,7 @@ export const resources: Resource[] = [
     name: "Major League Hacking (MLH)",
     description:
       "Hackathons, fellowship programs, and community events where first-years can build projects and meet recruiters early.",
-    url: "https://mlh.io/",
+    url: "https://www.mlh.com/",
     audiences: ["college-first-year"],
     category: "community",
     tags: ["hackathons", "projects", "networking"],
@@ -228,8 +239,8 @@ export const resources: Resource[] = [
     id: "google-step",
     name: "Google STEP Internship",
     description:
-      "First- and second-year focused software engineering internship with mentorship — one of the best early footholds in big tech.",
-    url: "https://buildyourfuture.withgoogle.com/programs/step",
+      "Student Training in Engineering Program — software engineering internship for first- and second-year students. Search open STEP roles on Google Careers when the cycle posts.",
+    url: "https://www.google.com/about/careers/applications/jobs/results/?q=STEP",
     audiences: ["college-first-year"],
     category: "internship",
     tags: ["software engineering", "freshman", "sophomore"],
@@ -237,32 +248,32 @@ export const resources: Resource[] = [
   },
   {
     id: "microsoft-explore",
-    name: "Microsoft Explore",
+    name: "Explore Microsoft",
     description:
-      "12-week internship for first- and second-years combining product management and software engineering rotations.",
-    url: "https://careers.microsoft.com/v2/global/en/exploration-programs/explore",
+      "12-week summer internship for first- and second-year students exploring software engineering roles with mentoring and a pod model.",
+    url: "https://careers.microsoft.com/v2/global/en/exploremicrosoft",
     audiences: ["college-first-year"],
     category: "internship",
-    tags: ["SWE", "PM", "early career"],
+    tags: ["SWE", "early career"],
     eligibility: "First- & second-year undergrads",
   },
   {
-    id: "meta-university",
-    name: "Meta University",
+    id: "meta-students",
+    name: "Meta Student & Grad Internships",
     description:
-      "Paid summer program for first- and second-year students from underrepresented backgrounds to explore software engineering at Meta.",
-    url: "https://www.metacareers.com/careerprograms/pathways/metauniversity",
+      "Meta posts university internships (including early-career engineering roles) on its students careers hub when applications are open.",
+    url: "https://www.metacareers.com/careerprograms/students",
     audiences: ["college-first-year"],
     category: "internship",
-    tags: ["software engineering", "underrepresented"],
-    eligibility: "First- & second-year undergrads",
+    tags: ["software engineering", "university"],
+    eligibility: "College students · roles vary by posting",
   },
   {
     id: "amazon-sde-intern",
-    name: "Amazon SDE Internship",
+    name: "Amazon Student Internships",
     description:
-      "Software development engineer internships across teams. Apply early; Amazon Future Engineer scholars often get a direct pathway.",
-    url: "https://www.amazon.jobs/en/teams/internships-for-students",
+      "Software development and other student internship tracks across Amazon. Apply early; Amazon Future Engineer scholars often get a related pathway.",
+    url: "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students",
     audiences: ["college-first-year"],
     category: "internship",
     tags: ["SDE", "summer"],
@@ -270,7 +281,7 @@ export const resources: Resource[] = [
   },
   {
     id: "extern",
-    name: "Extern (formerly Externship)",
+    name: "Extern",
     description:
       "Flexible, project-based externships with real companies — a strong first résumé line when a full summer internship isn’t locked yet.",
     url: "https://www.extern.com/",
@@ -294,7 +305,7 @@ export const resources: Resource[] = [
   },
   {
     id: "neetcode",
-    name: "NeetCode / Blind 75",
+    name: "NeetCode",
     description:
       "Structured interview practice roadmap. Start lightly as a first-year; ramp up before sophomore internship season.",
     url: "https://neetcode.io/",
@@ -302,38 +313,5 @@ export const resources: Resource[] = [
     category: "learning",
     tags: ["interview prep", "algorithms"],
     eligibility: "Students preparing for tech interviews",
-  },
-  {
-    id: "first-gen-scholars",
-    name: "First Gen Scholars — College Access",
-    description:
-      "Our home base: summer program, mentoring, and debt-free college navigation for first-generation, low-income scholars.",
-    url: "https://www.firstgenscholars.org/",
-    audiences: ["high-school", "college-first-year"],
-    category: "program",
-    tags: ["first-gen", "mentorship", "debt-free"],
-    eligibility: "First-gen, low-income students",
-  },
-  {
-    id: "fastweb",
-    name: "Fastweb Scholarship Search",
-    description:
-      "Large scholarship database — useful for juniors and seniors casting a wide net beyond big-name awards.",
-    url: "https://www.fastweb.com/",
-    audiences: ["high-school"],
-    category: "scholarship",
-    tags: ["database", "search", "all majors"],
-    eligibility: "HS students · all backgrounds",
-  },
-  {
-    id: "scholarships-com",
-    name: "Scholarships.com",
-    description:
-      "Searchable scholarship board with filters for major, state, and demographics. Pair with FAFSA and institutional aid.",
-    url: "https://www.scholarships.com/",
-    audiences: ["high-school", "college-first-year"],
-    category: "scholarship",
-    tags: ["database", "search"],
-    eligibility: "HS & college students",
   },
 ];
