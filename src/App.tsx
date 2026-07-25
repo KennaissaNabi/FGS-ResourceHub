@@ -111,8 +111,8 @@ export default function App() {
             Your map to college — <em>and beyond</em>
           </h1>
           <p className="hero-lead">
-            Scholarships for juniors and seniors, plus tech communities,
-            early internships, and learning paths for your first year on campus.
+            Scholarships for juniors and seniors, plus communities, internships,
+            and learning paths for your first year on campus — across every field.
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary" href="#resources">
@@ -130,7 +130,7 @@ export default function App() {
           <h2>One hub. Two stages.</h2>
           <p>
             Filter by where you are — finishing high school or starting college —
-            then dig into scholarships, communities, and technical opportunities.
+            then dig into scholarships, communities, programs, and career pathways.
           </p>
         </div>
         <ol className="how-steps">
@@ -144,8 +144,8 @@ export default function App() {
           <li>
             <strong>First year in college</strong>
             <p>
-              Join communities like ColorStack, take free CodePath courses, and
-              target freshman/sophomore internships (STEP, Explore, Meta U).
+              Join communities, find early internships and fellowships, and use
+              free learning resources to build momentum in your first year.
             </p>
           </li>
           <li>
@@ -162,8 +162,8 @@ export default function App() {
         <div className="section-intro">
           <h2>Resources</h2>
           <p>
-            Curated for first-generation scholars — with a strong lane for
-            software engineering and STEM, inspired by hubs like ColorStack.
+            Curated for first-generation scholars across every major. This list
+            will keep growing — more fields are coming as we add them.
           </p>
         </div>
 

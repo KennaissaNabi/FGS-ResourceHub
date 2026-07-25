@@ -1,6 +1,6 @@
 # First Gen Scholars — Resource Hub
 
-A filterable resource page for [First Gen Scholars](https://www.firstgenscholars.org/): scholarships for high school juniors/seniors, plus tech communities, internships, and learning paths for first-year college students.
+A filterable resource page for [First Gen Scholars](https://www.firstgenscholars.org/): scholarships for high school juniors/seniors, plus communities, internships, and learning paths for first-year college students across every field.
 
 ## Run locally
 

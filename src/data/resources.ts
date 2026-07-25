@@ -144,7 +144,7 @@ export const resources: Resource[] = [
     eligibility: "HS students · all backgrounds",
   },
 
-  // ——— College communities (Color Stack–style) ———
+  // ——— College communities ———
   {
     id: "colorstack",
     name: "ColorStack",
