@@ -1,6 +1,7 @@
 export type Audience = "high-school" | "college-first-year" | "all";
 export type Category =
   | "scholarship"
+  | "fly-in"
   | "community"
   | "internship"
   | "program"
@@ -25,6 +26,7 @@ export const audienceLabels: Record<Exclude<Audience, "all">, string> = {
 
 export const categoryLabels: Record<Category, string> = {
   scholarship: "Scholarships",
+  "fly-in": "Fly-In Programs",
   community: "Communities",
   internship: "Internships & Early Career",
   program: "Programs & Fellowships",
@@ -32,6 +34,85 @@ export const categoryLabels: Record<Category, string> = {
 };
 
 export const resources: Resource[] = [
+  // ——— Fly-in / campus visit programs (HS) ———
+  {
+    id: "collegevine-fly-in-list",
+    name: "College Fly-In & Diversity Programs Directory",
+    description:
+      "CollegeVine’s complete list of 45+ college fly-in and diversity visit programs for prospective students. Colleges often cover travel, lodging, and meals so first-gen and low-income students can visit campus.",
+    url: "https://blog.collegevine.com/college-fly-in-and-diversity-programs-a-complete-list",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["directory", "first-gen", "campus visit"],
+    eligibility: "Mostly HS seniors · deadlines vary by school",
+  },
+  {
+    id: "coalition-fly-in-list",
+    name: "Coalition for College — Fly-In & Visit Programs",
+    description:
+      "Updated list of fly-in and access-focused visit experiences at Coalition member schools, including dates for the current cycle.",
+    url: "https://www.coalitionforcollegeaccess.org/mycoalition-counselor-all/fly-in-programs-visits",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["directory", "Coalition", "campus visit"],
+    eligibility: "HS juniors & seniors · see each school’s page",
+  },
+  {
+    id: "amherst-a2a",
+    name: "Access to Amherst (A2A)",
+    description:
+      "Fall fly-in introducing Amherst’s campus, classes, and financial aid. Centers students from marginalized communities, first-gen students, and those who may not be able to visit on their own.",
+    url: "https://www.amherst.edu/admission/diversity/a2a",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["first-gen", "liberal arts", "fall"],
+    eligibility: "Rising HS seniors in the U.S.",
+  },
+  {
+    id: "bates-prologue",
+    name: "Prologue to Bates",
+    description:
+      "All-expenses-paid autumn fly-in aligned with Bates Fall Visit Day. Especially encourages first-generation and low-income seniors from the U.S. and Puerto Rico.",
+    url: "https://www.bates.edu/admission/connect-with-bates/prologue/",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["first-gen", "all expenses paid", "fall"],
+    eligibility: "HS seniors · U.S. & Puerto Rico",
+  },
+  {
+    id: "bowdoin-explore",
+    name: "Explore Bowdoin",
+    description:
+      "Fully covered campus visit with overnight stays, classes, clubs, and admissions/financial aid sessions. Priority for low-income and first-generation applicants. Sessions in September and October.",
+    url: "https://www.bowdoin.edu/admissions/visit/explore-bowdoin/",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["first-gen", "all expenses paid", "fall"],
+    eligibility: "Prospective students · priority for first-gen / low-income",
+  },
+  {
+    id: "swarthmore-discover",
+    name: "Discover Swarthmore",
+    description:
+      "All-expenses-paid overnight fly-in (travel, meals, housing covered). Preference for first-gen students, low-income students, and those who couldn’t otherwise afford a visit.",
+    url: "https://www.swarthmore.edu/admissions-aid/discover-swarthmore-fly-program",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["first-gen", "all expenses paid", "fall"],
+    eligibility: "Rising HS seniors · U.S. / territories · DACA welcome",
+  },
+  {
+    id: "mit-wise",
+    name: "MIT WISE (Weekend Immersion in Science & Engineering)",
+    description:
+      "Free three-day immersion at MIT, including transportation. Strongly encourages students from underserved backgrounds, rural areas, low-income families, and potential first-gen college students.",
+    url: "https://mitadmissions.org/pages/wise/",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["STEM", "first-gen", "all expenses paid"],
+    eligibility: "Rising HS seniors · U.S. / territories",
+  },
+
   // ——— High school scholarships & programs ———
   {
     id: "amazon-future-engineer",

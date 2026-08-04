@@ -23,6 +23,7 @@ const AUDIENCES: Array<"all" | Exclude<Audience, "all">> = [
 const CATEGORIES: Array<"all" | Category> = [
   "all",
   "scholarship",
+  "fly-in",
   "community",
   "internship",
   "program",
