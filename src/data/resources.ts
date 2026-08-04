@@ -47,17 +47,6 @@ export const resources: Resource[] = [
     eligibility: "Mostly HS seniors · deadlines vary by school",
   },
   {
-    id: "coalition-fly-in-list",
-    name: "Coalition for College — Fly-In & Visit Programs",
-    description:
-      "Updated list of fly-in and access-focused visit experiences at Coalition member schools, including dates for the current cycle.",
-    url: "https://www.coalitionforcollegeaccess.org/mycoalition-counselor-all/fly-in-programs-visits",
-    audiences: ["high-school"],
-    category: "fly-in",
-    tags: ["directory", "Coalition", "campus visit"],
-    eligibility: "HS juniors & seniors · see each school’s page",
-  },
-  {
     id: "amherst-a2a",
     name: "Access to Amherst (A2A)",
     description:
@@ -111,17 +100,6 @@ export const resources: Resource[] = [
     category: "fly-in",
     tags: ["STEM", "first-gen", "all expenses paid"],
     eligibility: "Rising HS seniors · U.S. / territories",
-  },
-  {
-    id: "questbridge-fly-ins",
-    name: "QuestBridge Fall Fly-In Program List",
-    description:
-      "QuestBridge’s curated table of fall fly-in programs at partner colleges, with application deadlines and program dates for the current cycle.",
-    url: "https://www.questbridge.org/resources/fly-in-programs",
-    audiences: ["high-school"],
-    category: "fly-in",
-    tags: ["directory", "QuestBridge", "deadlines"],
-    eligibility: "Mostly rising HS seniors · see each school",
   },
   {
     id: "pomona-pop",
