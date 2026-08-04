@@ -112,6 +112,61 @@ export const resources: Resource[] = [
     tags: ["STEM", "first-gen", "all expenses paid"],
     eligibility: "Rising HS seniors · U.S. / territories",
   },
+  {
+    id: "questbridge-fly-ins",
+    name: "QuestBridge Fall Fly-In Program List",
+    description:
+      "QuestBridge’s curated table of fall fly-in programs at partner colleges, with application deadlines and program dates for the current cycle.",
+    url: "https://www.questbridge.org/resources/fly-in-programs",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["directory", "QuestBridge", "deadlines"],
+    eligibility: "Mostly rising HS seniors · see each school",
+  },
+  {
+    id: "pomona-pop",
+    name: "Perspectives on Pomona (POP)",
+    description:
+      "Fall fly-in (plus virtual options) focused on first-gen, low- and middle-income students, and students whose lived experiences shape their identities. Travel support available.",
+    url: "https://www.pomona.edu/admissions/diversity/fall-fly-program-pop",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["first-gen", "California", "fall"],
+    eligibility: "HS seniors in the U.S. · DACA welcome",
+  },
+  {
+    id: "carleton-toc",
+    name: "Taste of Carleton",
+    description:
+      "Free, all-expenses-paid fly-in for seniors with limited access to college exploration resources. Attend classes, tour campus, and learn about admissions and financial aid.",
+    url: "https://www.carleton.edu/admissions/visit/toc/",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["first-gen", "all expenses paid", "liberal arts"],
+    eligibility: "HS seniors · U.S. high schools",
+  },
+  {
+    id: "emory-leads",
+    name: "Emory LEADs Experience",
+    description:
+      "Hybrid college-access program with monthly virtual support and a selective overnight Leadership Retreat. Designed for first-gen, rural, and lower-socioeconomic seniors who may not otherwise visit campus.",
+    url: "https://apply.emory.edu/leads/index.html",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["first-gen", "hybrid", "leadership"],
+    eligibility: "HS seniors · open to apply · focused programming for access students",
+  },
+  {
+    id: "tufts-voices",
+    name: "Voices of Tufts",
+    description:
+      "Visit program introducing belonging and community at Tufts through student conversations, admissions workshops, and campus programming. Virtual and on-campus options.",
+    url: "https://admissions.tufts.edu/voices/voices-home/",
+    audiences: ["high-school"],
+    category: "fly-in",
+    tags: ["diversity", "belonging", "fall"],
+    eligibility: "Rising seniors · U.S. high schools",
+  },
 
   // ——— High school scholarships & programs ———
   {
@@ -224,6 +279,226 @@ export const resources: Resource[] = [
     tags: ["database", "search", "all majors"],
     eligibility: "HS students · all backgrounds",
   },
+  {
+    id: "dell-scholars",
+    name: "Dell Scholars",
+    description:
+      "Scholarship plus laptop, textbook support, and multi-year college coaching for Pell-eligible students who participated in a college-readiness program in high school.",
+    url: "https://www.dellscholars.org/",
+    audiences: ["high-school"],
+    category: "scholarship",
+    tags: ["Pell-eligible", "coaching", "tech stipend"],
+    eligibility: "HS seniors · Pell-eligible · college-readiness program",
+  },
+  {
+    id: "ron-brown",
+    name: "Ron Brown Scholar Program",
+    description:
+      "Scholarship and leadership community for academically talented African American high school seniors, with college and career support beyond funding.",
+    url: "https://www.ronbrown.org/",
+    audiences: ["high-school"],
+    category: "scholarship",
+    tags: ["leadership", "African American", "mentorship"],
+    eligibility: "HS seniors · African American · U.S. citizens / permanent residents",
+  },
+  {
+    id: "jackie-robinson",
+    name: "Jackie Robinson Foundation Scholarship",
+    description:
+      "Four-year scholarship and leadership development for minority students of color, including mentoring, internship support, and a national peer network.",
+    url: "https://www.jackierobinson.org/",
+    audiences: ["high-school"],
+    category: "scholarship",
+    tags: ["leadership", "mentorship", "internship support"],
+    eligibility: "HS seniors · minority students · financial need",
+  },
+  {
+    id: "hsf",
+    name: "Hispanic Scholarship Fund",
+    description:
+      "Scholarships and college-success programming for students of Hispanic heritage across majors — one of the largest Hispanic scholarship organizations in the U.S.",
+    url: "https://www.hsf.net/",
+    audiences: ["high-school", "college-first-year"],
+    category: "scholarship",
+    tags: ["Hispanic", "all majors", "college success"],
+    eligibility: "Hispanic heritage · HS seniors & college students",
+  },
+  {
+    id: "apia-scholars",
+    name: "APIA Scholars",
+    description:
+      "Scholarships for Asian American, Native Hawaiian, and Pacific Islander students, with a focus on underserved AANHPI communities and first-gen college-goers.",
+    url: "https://apiascholars.org/scholarship/apia-scholarship/",
+    audiences: ["high-school", "college-first-year"],
+    category: "scholarship",
+    tags: ["AANHPI", "first-gen", "underserved communities"],
+    eligibility: "AANHPI students · see current cycle criteria",
+  },
+  {
+    id: "point-foundation",
+    name: "Point Foundation",
+    description:
+      "Scholarships, mentoring, and leadership development for LGBTQ students pursuing undergraduate or graduate degrees.",
+    url: "https://www.pointfoundation.org/",
+    audiences: ["high-school", "college-first-year"],
+    category: "scholarship",
+    tags: ["LGBTQ", "mentorship", "leadership"],
+    eligibility: "LGBTQ students · undergrad & grad pathways",
+  },
+  {
+    id: "thedream-us",
+    name: "TheDream.US Scholarship",
+    description:
+      "College scholarships for Dreamers (DACA/TPS and similarly situated students) to attend partner colleges, plus advising and a scholar community.",
+    url: "https://www.thedream.us/",
+    audiences: ["high-school", "college-first-year"],
+    category: "scholarship",
+    tags: ["Dreamers", "DACA", "partner colleges"],
+    eligibility: "Dreamer students · see partner college list",
+  },
+  {
+    id: "equitable-excellence",
+    name: "Equitable Excellence Scholarship",
+    description:
+      "National scholarship recognizing high school seniors for academics, community impact, and leadership — open across majors.",
+    url: "https://www.equitable.com/foundation/equitable-excellence-scholarship",
+    audiences: ["high-school"],
+    category: "scholarship",
+    tags: ["merit", "leadership", "all majors"],
+    eligibility: "HS seniors · U.S.",
+  },
+  {
+    id: "elks-scholars",
+    name: "Elks National Foundation Scholarships",
+    description:
+      "Multiple ENF scholarship programs for high school seniors, including need-based and merit awards administered through local Elks lodges.",
+    url: "https://www.elks.org/scholars/",
+    audiences: ["high-school"],
+    category: "scholarship",
+    tags: ["need-based", "merit", "local lodge"],
+    eligibility: "HS seniors · U.S. citizens",
+  },
+  {
+    id: "bold-org",
+    name: "Bold.org Scholarships",
+    description:
+      "Free scholarship search and application platform with thousands of awards across interests, identities, and majors.",
+    url: "https://www.bold.org/",
+    audiences: ["high-school", "college-first-year"],
+    category: "scholarship",
+    tags: ["database", "search", "free"],
+    eligibility: "HS & college students",
+  },
+  {
+    id: "scholarship-america",
+    name: "Scholarship America — Student Hub",
+    description:
+      "National nonprofit that administers many corporate and community scholarships. Browse open programs and application portals in one place.",
+    url: "https://www.scholarshipamerica.org/students/",
+    audiences: ["high-school", "college-first-year"],
+    category: "scholarship",
+    tags: ["database", "corporate", "community"],
+    eligibility: "Varies by program",
+  },
+  {
+    id: "fafsa",
+    name: "FAFSA — Free Application for Federal Student Aid",
+    description:
+      "Required starting point for federal grants, work-study, loans, and most college financial aid packages. File as early as possible each year.",
+    url: "https://studentaid.gov/h/apply-for-aid/fafsa",
+    audiences: ["high-school", "college-first-year"],
+    category: "learning",
+    tags: ["financial aid", "federal", "required"],
+    eligibility: "College-bound students & current undergrads",
+  },
+  {
+    id: "common-app",
+    name: "Common App",
+    description:
+      "One application used by 1,000+ colleges. Includes fee waivers for eligible students and a central place to manage deadlines and recommendations.",
+    url: "https://www.commonapp.org/",
+    audiences: ["high-school"],
+    category: "learning",
+    tags: ["applications", "fee waiver", "college list"],
+    eligibility: "HS seniors applying to college",
+  },
+  {
+    id: "bigfuture",
+    name: "BigFuture by College Board",
+    description:
+      "Free college search, career exploration, scholarship tools, and planning resources from College Board — useful for juniors building a balanced list.",
+    url: "https://bigfuture.collegeboard.org/",
+    audiences: ["high-school"],
+    category: "learning",
+    tags: ["college search", "planning", "free"],
+    eligibility: "HS students · all backgrounds",
+  },
+  {
+    id: "im-first",
+    name: "I'm First!",
+    description:
+      "First-gen student stories, college-search tools, and guidance built specifically for students who will be the first in their family to go to college.",
+    url: "https://www.imfirst.org/",
+    audiences: ["high-school", "college-first-year"],
+    category: "learning",
+    tags: ["first-gen", "stories", "college search"],
+    eligibility: "First-generation college-bound students",
+  },
+  {
+    id: "college-possible",
+    name: "College Possible",
+    description:
+      "Near-peer coaching for low-income students through college applications, enrollment, and persistence — including ACT/SAT prep and scholarship support.",
+    url: "https://www.collegepossible.org/",
+    audiences: ["high-school", "college-first-year"],
+    category: "program",
+    tags: ["coaching", "low-income", "persistence"],
+    eligibility: "See local program sites · low-income focus",
+  },
+  {
+    id: "bottom-line",
+    name: "Bottom Line",
+    description:
+      "One-on-one advising that helps first-gen and low-income students get into college, graduate, and find strong first jobs.",
+    url: "https://www.bottomline.org/",
+    audiences: ["high-school", "college-first-year"],
+    category: "program",
+    tags: ["advising", "first-gen", "career"],
+    eligibility: "Serves select cities · first-gen / low-income",
+  },
+  {
+    id: "imentor",
+    name: "iMentor",
+    description:
+      "College-access mentoring that pairs high school students with college-educated mentors for multi-year support through applications and the transition to campus.",
+    url: "https://www.imentor.org/",
+    audiences: ["high-school"],
+    category: "program",
+    tags: ["mentorship", "college access"],
+    eligibility: "Partner high schools · see local availability",
+  },
+  {
+    id: "csac",
+    name: "California Student Aid Commission (CSAC)",
+    description:
+      "Official hub for California state aid programs like Cal Grant. Essential for California residents filing FAFSA/CADAA and tracking state awards.",
+    url: "https://www.csac.ca.gov/",
+    audiences: ["high-school", "college-first-year"],
+    category: "learning",
+    tags: ["California", "Cal Grant", "state aid"],
+    eligibility: "California residents",
+  },
+  {
+    id: "hesc-ny",
+    name: "NY Higher Education Services Corporation (HESC)",
+    description:
+      "New York’s state student aid agency — TAP, Excelsior, and other NY grant/scholarship programs for residents.",
+    url: "https://www.hesc.ny.gov/",
+    audiences: ["high-school", "college-first-year"],
+    category: "learning",
+    tags: ["New York", "TAP", "state aid"],
+    eligibility: "New York residents",
+  },
 
   // ——— College communities ———
   {
@@ -313,6 +588,94 @@ export const resources: Resource[] = [
     category: "program",
     tags: ["fellowship", "placement", "Boston"],
     eligibility: "Black & Latinx students pursuing tech careers",
+  },
+  {
+    id: "seo",
+    name: "SEO (Sponsors for Educational Opportunity)",
+    description:
+      "Career programs connecting underrepresented college students to internships and recruiting pipelines in business, law, and related fields.",
+    url: "https://www.seo-usa.org/",
+    audiences: ["college-first-year"],
+    category: "program",
+    tags: ["internships", "career", "underrepresented"],
+    eligibility: "Undergrads · see program tracks",
+  },
+  {
+    id: "mlt",
+    name: "Management Leadership for Tomorrow (MLT)",
+    description:
+      "Career preparation for Black, Latinx, and Native American students — coaching, recruiting access, and a peer community across industries.",
+    url: "https://www.mlt.org/",
+    audiences: ["college-first-year"],
+    category: "program",
+    tags: ["career coaching", "leadership", "recruiting"],
+    eligibility: "Undergrads & early career · see eligibility",
+  },
+  {
+    id: "firstgen-forward",
+    name: "FirstGen Forward",
+    description:
+      "NASPA’s national first-gen student success network — research, toolkits, and campus resources for first-generation college students and the staff who support them.",
+    url: "https://firstgen.naspa.org/",
+    audiences: ["college-first-year"],
+    category: "learning",
+    tags: ["first-gen", "campus success", "NASPA"],
+    eligibility: "First-gen students & educators",
+  },
+  {
+    id: "year-up",
+    name: "Year Up United",
+    description:
+      "Skills training, stipends, and corporate internships for young adults — a pathway into professional careers alongside or instead of a traditional four-year start.",
+    url: "https://www.yearup.org/",
+    audiences: ["high-school", "college-first-year"],
+    category: "program",
+    tags: ["workforce", "internship", "stipend"],
+    eligibility: "Young adults · see local program criteria",
+  },
+  {
+    id: "genesys-works",
+    name: "Genesys Works",
+    description:
+      "High school seniors from underserved communities get training plus a paid internship with a major company during senior year — strong early professional experience.",
+    url: "https://www.genesysworks.org/",
+    audiences: ["high-school"],
+    category: "internship",
+    tags: ["paid internship", "high school", "career"],
+    eligibility: "HS seniors · select metro areas",
+  },
+  {
+    id: "ptk",
+    name: "Phi Theta Kappa (PTK)",
+    description:
+      "International honor society for community college students — scholarships, transfer pathways, and leadership development for high-achieving two-year students.",
+    url: "https://www.ptk.org/",
+    audiences: ["college-first-year"],
+    category: "community",
+    tags: ["community college", "transfer", "scholarships"],
+    eligibility: "Community college students · GPA criteria",
+  },
+  {
+    id: "google-students",
+    name: "Google Careers for Students",
+    description:
+      "Official hub for Google internships, apprenticeships, and student programs across engineering and non-engineering roles when applications are open.",
+    url: "https://www.google.com/students/",
+    audiences: ["college-first-year"],
+    category: "internship",
+    tags: ["Google", "internships", "apprenticeships"],
+    eligibility: "Students · roles vary by posting",
+  },
+  {
+    id: "microsoft-students",
+    name: "Microsoft University Recruiting",
+    description:
+      "Microsoft’s student and early-career hub for internships and full-time university programs across engineering, business, and design.",
+    url: "https://careers.microsoft.com/students/",
+    audiences: ["college-first-year"],
+    category: "internship",
+    tags: ["Microsoft", "internships", "university"],
+    eligibility: "Students · roles vary by posting",
   },
 
   // ——— Internships aimed at early undergrads ———
